@@ -87,8 +87,8 @@ const Hero = () => {
            <img
   src="/profile.png"
   alt="Ashwanth Raj"
-  className="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover border-4 border-cyan-400 shadow-lg"
-  style={{ objectPosition: "60% 40%" }}
+  className="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover border-4 border-cyan-400 shadow-xl hover:scale-105 transition duration-300"
+  style={{ objectPosition: "55% 30%" }}
 />
           </div>
 
