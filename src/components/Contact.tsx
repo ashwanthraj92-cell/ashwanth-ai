@@ -32,7 +32,7 @@ const Contact = () => {
               Get in Touch
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/ashwanthrajgev/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-border text-foreground hover:bg-secondary transition-colors"
