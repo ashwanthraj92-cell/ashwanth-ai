@@ -30,7 +30,7 @@ const Hero = () => {
 
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
               <span className="text-foreground">Ashwanth</span>{" "}
-              <span style={{ color: "#00E1FF" }}>B Raj</span>
+              <span style={{ color: "#00B8D9" }}>B Raj</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-4 max-w-2xl">
