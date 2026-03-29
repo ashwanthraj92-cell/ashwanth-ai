@@ -51,9 +51,15 @@ const Contact = () => {
             </a>
           </div>
 
-          <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-            <MapPin size={14} />
-            Bengaluru, India
+          <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground">
+            <span className="flex items-center gap-2">
+              <Phone size={14} />
+              +91 9159311982
+            </span>
+            <span className="flex items-center gap-2">
+              <MapPin size={14} />
+              Bengaluru, India
+            </span>
           </div>
         </motion.div>
       </div>
