@@ -1,8 +1,8 @@
 :root {
-  --primary: hsl(180, 100%, 35%);
-  --accent: hsl(180, 100%, 35%);
-  --ring: hsl(180, 100%, 35%);
-  --glow: hsl(180, 100%, 35%);
-  --sidebar-primary: hsl(180, 100%, 35%);
-  --sidebar-ring: hsl(180, 100%, 35%);
+  --primary: hsl(180, 100%, 30%);
+  --accent: hsl(180, 100%, 30%);
+  --ring: hsl(180, 100%, 30%);
+  --glow: hsl(180, 100%, 30%);
+  --sidebar-primary: hsl(180, 100%, 30%);
+  --sidebar-ring: hsl(180, 100%, 30%);
 }
