@@ -41,7 +41,7 @@ const Contact = () => {
               LinkedIn
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/indian_explorester/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-border text-foreground hover:bg-secondary transition-colors"
