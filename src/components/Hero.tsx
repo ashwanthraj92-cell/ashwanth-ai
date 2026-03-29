@@ -84,11 +84,12 @@ const Hero = () => {
 
           {/* RIGHT SIDE IMAGE */}
           <div className="mt-10 md:mt-0">
-            <img
-              src="/profile.png"
-              alt="Ashwanth Raj"
-              className="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover object-top border-4 border-cyan-400 shadow-lg"
-            />
+           <img
+  src="/profile.png"
+  alt="Ashwanth Raj"
+  className="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover border-4 border-cyan-400 shadow-lg"
+  style={{ objectPosition: "60% 40%" }}
+/>
           </div>
 
         </div>
