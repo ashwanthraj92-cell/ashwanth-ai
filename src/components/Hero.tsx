@@ -8,11 +8,12 @@ const Hero = () => {
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px] pointer-events-none" />
 
       <div className="container mx-auto px-6 relative z-10">
+      <div className="flex flex-col md:flex-row items-center justify-between">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-3xl"
+          className="max-w-3xl md:max-w-xl">
         >
           <motion.div
             initial={{ opacity: 0 }}
@@ -23,6 +24,14 @@ const Hero = () => {
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             Currently building at GE Vernova
           </motion.div>
+          <div className="mt-10 md:mt-0">
+  <img
+    src="/profile.png"
+    alt="Ashwanth Raj"
+    className="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover object-top border-4 border-cyan-400 shadow-lg"
+  />
+</div>
+          </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
             <span className="text-foreground">Ashwanth</span>{" "}
