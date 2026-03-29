@@ -2,11 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* DARK THEME BASE */
 :root {
-  --primary: hsl(181, 100%, 30%);
-  --accent: hsl(181, 100%, 30%);
-  --ring: hsl(181, 100%, 30%);
-  --glow: hsl(181, 100%, 30%);
-  --sidebar-primary: hsl(181, 100%, 30%);
-  --sidebar-ring: hsl(181, 100%, 30%);
+  --background: 222 47% 4%;
+  --foreground: 210 40% 98%;
+
+  --primary: 181 100% 30%;
+  --accent: 181 100% 30%;
+
+  --border: 217 33% 17%;
+  --secondary: 217 33% 17%;
+}
+
+/* APPLY DARK BACKGROUND */
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+/* GRID BACKGROUND (your design pattern) */
+.grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
